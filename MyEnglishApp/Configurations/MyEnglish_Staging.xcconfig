@@ -1,0 +1,21 @@
+//
+//  MyEnglish_Staging.xcconfig
+//  MyEnglishApp
+//
+//  Created by Mailyn Sajorda on 25/06/2019.
+//  Copyright © 2019 Mailyn Sajorda. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "MyEnglish_Shared.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-MyEnglishApp/Pods-EnglishCentral-MyEnglishApp.qa-debug-config.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-MyEnglishApp/Pods-EnglishCentral-MyEnglishApp.qa-analyze-config.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-MyEnglishApp/Pods-EnglishCentral-MyEnglishApp.qa-test-config.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-MyEnglishApp/Pods-EnglishCentral-MyEnglishApp.qa-release-config.xcconfig"
+
+DISPLAY_NAME = $(ME_DISPLAY_NAME) (QA)
+BASE_URL = $(QA_URL)
+BUILD_NUMBER = $(ME_BUILD_NUMBER_DEBUG)
+MARKETING_VERSION = $(ME_BUILD_VERSION)($(BUILD_NUMBER))

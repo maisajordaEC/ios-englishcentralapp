@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:EnglishCentralApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECAnalyticsKit/ECAnalyticsKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECAppRatingKit/ECAppRatingKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECCoreKit/ECCoreKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECIdentityKit/ECIdentityKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECMonitoringKit/ECMonitoringKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECMyGoalKit/ECMyGoalKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECPaywallKit/ECPaywallKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECPermissionKit/ECPermissionKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECPlayerKit/ECPlayerKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECProgressEventKit/ECProgressEventKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECQuizKit/ECQuizKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECSearchKit/ECSearchKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ios-englishcentralsdk/Kits/ECTutorKit/ECTutorKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

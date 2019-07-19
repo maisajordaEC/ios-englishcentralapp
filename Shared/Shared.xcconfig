@@ -1,0 +1,16 @@
+//
+//  Shared.xcconfig
+//  EnglishCentralApp
+//
+//  Created by Mailyn Sajorda on 27/06/2019.
+//  Copyright © 2019 Mailyn Sajorda. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DEV_URL = devenglishcentral.com
+QA_URL = qaenglishcentral.com
+PROD_URL = englishcentral.com
+
+KITS_DIR = $(PROJECT_DIR)/../ios-englishcentralsdk/Kits

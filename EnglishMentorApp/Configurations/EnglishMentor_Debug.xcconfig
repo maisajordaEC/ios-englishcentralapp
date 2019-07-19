@@ -1,0 +1,21 @@
+//
+//  EnglishMentor-DEV.xcconfig
+//  EnglishMentorApp
+//
+//  Created by Mailyn Sajorda on 25/06/2019.
+//  Copyright © 2019 Mailyn Sajorda. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "EnglishMentor_Shared.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-EnglishMentorApp/Pods-EnglishCentral-EnglishMentorApp.dev-debug-config.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-EnglishMentorApp/Pods-EnglishCentral-EnglishMentorApp.dev-analyze-config.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-EnglishMentorApp/Pods-EnglishCentral-EnglishMentorApp.dev-test-config.xcconfig"
+#include "../../Pods/Target Support Files/Pods-EnglishCentral-EnglishMentorApp/Pods-EnglishCentral-EnglishMentorApp.dev-release-config.xcconfig"
+
+DISPLAY_NAME = $(EM_DISPLAY_NAME) (DEV)
+BASE_URL = $(DEV_URL)
+BUILD_NUMBER = $(EM_BUILD_NUMBER_DEBUG)
+MARKETING_VERSION = $(EM_BUILD_VERSION)($(BUILD_NUMBER))

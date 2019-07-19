@@ -1,0 +1,18 @@
+//
+//  EnglishMentor_Shared.xcconfig
+//  MyEnglishApp
+//
+//  Created by Mailyn Sajorda on 28/06/2019.
+//  Copyright © 2019 Mailyn Sajorda. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../../Shared/Shared.xcconfig"
+
+EM_DISPLAY_NAME = EnglishMentor
+EM_BUILD_DATE = 20190628
+EM_BUILD_VERSION = 5.0
+EM_BUILD_NUMBER_DEBUG = 5.0.rc1
+EM_BUILD_NUMBER_RELEASE = 5.0.1
